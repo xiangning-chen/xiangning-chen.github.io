@@ -12,7 +12,6 @@ With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimi
 
 Additional details are in an [arXiv paper](https://arxiv.org/abs/1705.05548){:target="_blank"}.
 
-
 [Intel Press Release](https://newsroom.intel.com/chip-shots/intel-announces-tools-realsense-technology-development/){:target="_blank"}
 
 [YouTube](https://www.youtube.com/watch?v=pvXJSn22ujU){:target="_blank"}

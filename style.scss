@@ -104,8 +104,33 @@ span.highlight {
 //@import "highlights";
 //@import "svg-icons";
 
-@media (max-width:768px){
-  table tr:first-child { display:block; }
-  table tr:first-child td{ display:block; width:100%!important; text-align:left; }
-  table tr:first-child img{ width:120px; }
+/* general look */
+.avatar{
+  width:140px;           /* fixed so it never swallows the page */
+  padding:2.5%;
+  vertical-align:top;    /* puts the picture at the same height as the name */
+  text-align:center;
+}
+.avatar img{
+  width:100%;
+  max-width:120px;
+  border-radius:50%;
+}
+
+.bio{
+  padding:2.5%;
+  vertical-align:top;    /* line up with the photo */
+  text-align:left;       /* paragraphs are left aligned again */
+}
+
+/* phone tune-up */
+@media (max-width: 480px){
+  .avatar{
+    width:100px;         /* make the photo slimmer on tiny screens */
+    padding-right:12px;
+  }
+  h1{                    /* keep the heading from overwhelming the row */
+    font-size:1.8em;
+    margin-top:0;
+  }
 }

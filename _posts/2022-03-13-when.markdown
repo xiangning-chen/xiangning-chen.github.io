@@ -1,0 +1,9 @@
+---
+layout: post
+title: "When Vision Transformers Outperform ResNets without Pre-Training or Strong Data Augmentations"
+date: 2022-03-13
+categories: research
+authors: "<strong>X. Chen</strong>, C. Hsieh, B. Gong"
+venue: "ICLR (<strong>spotlight</strong>)"
+arxiv: https://arxiv.org/abs/2106.01548
+---

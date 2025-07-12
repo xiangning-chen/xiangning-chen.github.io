@@ -1,0 +1,10 @@
+---
+layout: post
+title: "DrNAS: Dirichlet Neural Architecture Search"
+date: 2021-03-16
+categories: research
+authors: "<strong>X. Chen</strong>*, R. Wang*, M. Cheng*, X. Tang, C. Hsieh"
+venue: "ICLR"
+arxiv: https://arxiv.org/abs/2006.10355
+code: https://github.com/xiangning-chen/DrNAS
+---

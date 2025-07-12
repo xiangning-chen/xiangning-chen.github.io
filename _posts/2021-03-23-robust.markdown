@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Robust and Accurate Object Detection via Adversarial Learning"
+date: 2021-03-23
+categories: research
+authors: "<strong>X. Chen</strong>, C. Xie, M. Tan, L. Zhang, C. Hsieh, B. Gong"
+venue: "CVPR"
+arxiv: https://arxiv.org/abs/2103.13886
+---

@@ -103,3 +103,9 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+
+@media (max-width:768px){
+  table tr:first-child { display:block; }
+  table tr:first-child td{ display:block; width:100%!important; text-align:center; }
+  table tr:first-child img{ width:120px; }
+}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Symbol tuning improves in-context learning in language models"
+title: "Symbol Tuning Improves In-Context Learning in Language Models"
 date: 2023-05-15
 categories: research
 authors: "J. Wei, L. Hou, A. Lampinen, <strong>X. Chen</strong>, D. Huang, Y. Tay, X. Chen, Y. Lu, D. Zhou, T. Ma, Q. Le"

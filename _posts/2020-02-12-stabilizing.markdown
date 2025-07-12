@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stabilizing Differentiable Architecture Search via Perturbation-based Regularization"
+title: "Stabilizing Differentiable Architecture Search via Perturbation-Based Regularization"
 date: 2020-02-12
 categories: research
 authors: "<strong>X. Chen</strong>, C. Hsieh"

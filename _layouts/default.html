@@ -8,128 +8,137 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-E00L9PT3V9');
   </script>
+
   <title>{{ site.name }}</title>
-
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
-  <meta name="author" content="{{ site.name }}" />
+  <meta charset="utf-8">
+  <meta name="author" content="{{ site.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-    type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet">
+  <style>
+    /* base layout */
+    .wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 4%;
+      font-family: "Lato", sans-serif;
+    }
 
+    /* header with name and photo */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 2rem 0 1.25rem 0;
+    }
+
+    .header img {
+      width: 90px;
+      height: auto;
+      border-radius: 50%;
+      flex: 0 0 auto;
+    }
+
+    /* typography */
+    h1,
+    h2,
+    h3 {
+      margin: 0 0 .5em 0;
+    }
+
+    p {
+      margin: .6em 0;
+      line-height: 1.45;
+    }
+
+    /* links row */
+    .links a {
+      display: inline-block;
+      margin-right: .4rem;
+    }
+
+    /* mobile tweaks */
+    @media(max-width:540px) {
+      .header img {
+        width: 70px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                Xiangning Chen
-              </h1>
-              <br>
-              <p>
-                I am a researcher at <a href="https://openai.com/">OpenAI</a>, where I work on posttraining,
-                reinforcement learning, and multimodal.
-                I contributed to <a href="https://openai.com/index/introducing-o3-and-o4-mini/">o3/o4-mini</a>, GPT-4o
-                posttraining (e.g., investigating its <a
-                  href="https://openai.com/index/sycophancy-in-gpt-4o/">sycophancy behavior</a>), <a
-                  href="https://openai.com/index/introducing-our-next-generation-audio-models/">next-gen audio
-                  models</a>, etc.
-              </p>
-              <p>
-                Previously, I co-founded <a href="https://www.convergelab.ai/">Converge Lab</a>,
-                an AI startup that aims to bring large language models to the physical world.
-              </p>
-              <p>
-                I obtained my Ph.D. degree at <a href="https://www.cs.ucla.edu/">UCLA CS</a> in 2023,
-                advised by Prof. <a href="http://web.cs.ucla.edu/~chohsieh/">Cho-Jui Hsieh</a>. Prior to UCLA,
-                I received my B.Eng. in 2019 from the Department of Electronic Engineering, <a
-                  href="https://www.tsinghua.edu.cn/">Tsinghua University</a>. I've interned at Google Research and
-                <a href="https://deepmind.google/">Google DeepMind</a>.
-              </p>
-              <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/aq7MjKC9"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/xiangning-chen">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=vNcBx1sAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://x.com/xiangningchen">Twitter</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/xchen97/"> LinkedIn </a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:60%;max-width:60%" alt="profile photo" src="images/me.png">
-            </td>
-          </tr>
-        </table>
+  <div class="wrap">
+
+    <section class="header">
+      <img src="images/me.png" alt="profile photo">
+      <h1>Xiangning Chen</h1>
+    </section>
+
+    <section class="bio">
+      <p>
+        I am a researcher at <a href="https://openai.com/">OpenAI</a>, where I work on posttraining,
+        reinforcement learning, and multimodal.
+        I contributed to <a href="https://openai.com/index/introducing-o3-and-o4-mini/">o3/o4-mini</a>, GPT-4o
+        posttraining (e.g., assessing its <a href="https://openai.com/index/sycophancy-in-gpt-4o/">sycophancy
+          behavior</a>), <a href="https://openai.com/index/introducing-our-next-generation-audio-models/">next-gen audio
+          models</a>, etc.
+      </p>
+      <p>
+        Previously, I co-founded <a href="https://www.convergelab.ai/">Converge Lab</a>,
+        an AI startup that aims to bring large language models to the physical world.
+      </p>
+      <p>
+        I obtained my Ph.D. degree at <a href="https://www.cs.ucla.edu/">UCLA CS</a> in 2023,
+        advised by Prof. <a href="http://web.cs.ucla.edu/~chohsieh/">Cho-Jui Hsieh</a>. Prior to UCLA,
+        I received my B.Eng. in 2019 from the Department of Electronic Engineering, <a
+          href="https://www.tsinghua.edu.cn/">Tsinghua University</a>. I've interned at Google Research and
+        <a href="https://deepmind.google/">Google DeepMind</a>.
+      </p>
+
+      <br>
+      <p class="links" style="text-align:center">
+        <a target="_blank" href="https://mailhide.io/e/aq7MjKC9">Email</a>/
+        <a href="https://github.com/xiangning-chen">GitHub</a>/
+        <a href="https://scholar.google.com/citations?user=vNcBx1sAAAAJ&hl=en">Google Scholar</a>/
+        <a href="https://x.com/xiangningchen">Twitter</a>/
+        <a href="https://www.linkedin.com/in/xchen97/">LinkedIn</a>
+      </p>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <h2>Selected Publications</h2>
+    <section>
+      {% for post in site.posts %}
+      {% if post.categories contains "research" %}
+      <article>
         <br>
-
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Selected Publications</h2>
-            </td>
-          </tr>
-        </table>
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <!-- <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td> -->
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
         <br>
+        <h3>{{ post.title }}</h3>
+        <br>
+        {{ post.authors }}
+        <br>
+        <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}<br>
+        {% if post.arxiv %}<a href="{{ post.arxiv }}">arXiv</a>{% endif %}{% if post.code %} {% if post.arxiv %}/ {%
+        endif %}<a href="{{ post.code }}">code</a>{% endif %}
+        <p>{{ post.excerpt }}</p>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </section>
 
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's
-                  website</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+    <br>
+    <br>
+    <br>
+    <p style="text-align:center;font-size:small">Design and source code adapted from <a
+        href="https://jonbarron.info">Jon Barron’s site</a></p>
+
+  </div>
 </body>
 
 </html>

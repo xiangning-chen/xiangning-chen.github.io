@@ -122,15 +122,3 @@ span.highlight {
   vertical-align:top;    /* line up with the photo */
   text-align:left;       /* paragraphs are left aligned again */
 }
-
-/* phone tune-up */
-@media (max-width: 480px){
-  .avatar{
-    width:100px;         /* make the photo slimmer on tiny screens */
-    padding-right:12px;
-  }
-  h1{                    /* keep the heading from overwhelming the row */
-    font-size:1.8em;
-    margin-top:0;
-  }
-}

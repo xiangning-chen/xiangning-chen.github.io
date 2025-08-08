@@ -5,5 +5,5 @@ date: 2023-05-15
 categories: research
 authors: "J. Wei, L. Hou, A. Lampinen, <strong>X. Chen</strong>, D. Huang, Y. Tay, X. Chen, Y. Lu, D. Zhou, T. Ma, Q. Le"
 venue: "EMNLP"
-arxiv: https://arxiv.org/abs/2305.08298
+paper: https://arxiv.org/abs/2305.08298
 ---

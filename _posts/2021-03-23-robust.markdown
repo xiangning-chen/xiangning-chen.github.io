@@ -5,5 +5,5 @@ date: 2021-03-23
 categories: research
 authors: "<strong>X. Chen</strong>, C. Xie, M. Tan, L. Zhang, C. Hsieh, B. Gong"
 venue: "CVPR"
-arxiv: https://arxiv.org/abs/2103.13886
+paper: https://arxiv.org/abs/2103.13886
 ---

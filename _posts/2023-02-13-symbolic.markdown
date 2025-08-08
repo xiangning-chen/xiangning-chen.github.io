@@ -5,7 +5,7 @@ date: 2023-02-13
 categories: research
 authors: "<strong>X. Chen</strong>*, C. Liang*, D. Huang, E. Real, K. Wang, Y. Liu, H. Pham, X. Dong, T. Luong, C. Hsieh, Y. Lu, Q. Le"
 venue: "NeurIPS"
-arxiv: https://arxiv.org/abs/2302.06675
+paper: https://arxiv.org/abs/2302.06675
 code: https://github.com/lucidrains/lion-pytorch
 ---
 Lion has been successfully deployed in production systems such as Google's search ads CTR model  

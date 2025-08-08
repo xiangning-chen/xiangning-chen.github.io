@@ -5,6 +5,6 @@ date: 2023-05-31
 categories: research
 authors: "Z. Shi*, Y. Wang*, F. Yin*, <strong>X. Chen</strong>, K. Chang, C. Hsieh"
 venue: "TACL"
-arxiv: https://arxiv.org/abs/2305.19713
+paper: https://arxiv.org/abs/2305.19713
 code: https://github.com/shizhouxing/LLM-Detector-Robustness
 ---

@@ -5,5 +5,5 @@ date: 2022-03-05
 categories: research
 authors: "Y. Liu, S. Mai, <strong>X. Chen</strong>, C. Hsieh, Y. You"
 venue: "CVPR"
-arxiv: https://arxiv.org/abs/2203.02714
+paper: https://arxiv.org/abs/2203.02714
 ---
